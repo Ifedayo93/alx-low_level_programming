@@ -1,2 +1,3 @@
 - 0-positive or negative; print variables with if statement
+- 1-Last digit; print modular number
 - 
