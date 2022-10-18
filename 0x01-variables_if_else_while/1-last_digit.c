@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - this will assign a random number
- *
- * Result: Always 0 (Success)
+ * print modular value
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -13,11 +14,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %d is %d ", n, n % 10);
-	if (n > 5)
+	if (n % 10 > 5)
 	{
 		printf("and is greater than 5\n");
 	}
-	else if (n == 0)
+	else if (n % 10 == 0)
 	{
 		printf("and is 0\n");
 	}
