@@ -1,3 +1,5 @@
 - 0-positive or negative; print variables with if statement
 - 1-Last digit; print modular number
+- 2-print alphabet; prints all alphabet in lowercase
+- 3-print alphabet; prints all alphabet in lower and upper case
 - 
