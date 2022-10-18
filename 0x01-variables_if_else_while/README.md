@@ -2,4 +2,6 @@
 - 1-Last digit; print modular number
 - 2-print alphabet; prints all alphabet in lowercase
 - 3-print alphabet; prints all alphabet in lower and upper case
-- 
+- 4-print alphabt; prints all letters except q and e
+- 5-print numbers;  prints all single digit numbers of base 10 starting from 0
+-  
