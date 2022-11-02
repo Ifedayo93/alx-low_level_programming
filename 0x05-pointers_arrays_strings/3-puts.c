@@ -3,7 +3,7 @@
 /**
  * _strlen - returns string
  * @str: string
- * Return: string
+ * Return: void
  */
 
 int _strlen(char *str)
@@ -12,7 +12,7 @@ int _strlen(char *str)
 
 	while (str[len] != '\0')
 	{
-		_puts(str[len])
+		_puts(str[len]);
 		len++;
 	}
 
