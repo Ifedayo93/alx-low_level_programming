@@ -8,17 +8,17 @@
 
 int _isdigit(int c)
 {
-        char digit = '0';
-        int isdigit = 0;
+	char digit = '0';
+	int isdigit = 0;
 
-        for (; digit <= '9'; digit++)
-        {
-        if (c == digit)
-        {
-        isdigit = 1;
-        break;
-        }
-        }
+	for (; digit <= '9'; digit++)
+	{
+		if (c == digit)
+		{
+			isdigit = 1;
+			break;
+		}
+	}
 
-        return (isdigit);
+	return (isdigit);
 }
